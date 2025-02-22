@@ -18,7 +18,7 @@ This script is designed to enhance your Ubuntu experience by removing Snap packa
 You can run the script directly from the command line using `curl`. Open a terminal and execute the following command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/GNU-Alex/firefox-installer-ubuntu/main/firefox-installer.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/GNU-Alex/make-ubuntu-great-again/main/MUGA.sh | sudo bash
 ```
 
 ## Important Notes
