@@ -48,7 +48,7 @@ EOF'
 # Updating repositories
 apt update
 
-# Installing and configure flatpaks
+# Installing and configure flatapaks
 echo "Installing Flatpak..."
 apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
