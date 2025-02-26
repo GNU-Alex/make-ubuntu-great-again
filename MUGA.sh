@@ -74,7 +74,7 @@ echo "Downloading Firefox..."
 wget -q --show-progress -O firefox.tar.xz https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US
 echo "Download complete."
 # Decompressing archive.
-tar -xzvf firefox.tar.xz
+tar -xJvf firefox.tar.xz
 rm firefox.tar.xz
 # Create a symlink to the Firefox executable: 
 ln -s /opt/firefox/firefox /usr/local/bin/firefox
@@ -87,7 +87,7 @@ echo "Downloading Thunderbird..."
 wget -q --show-progress -O thunderbird.tar.bz2 https://download.mozilla.org/?product=thunderbird-128.7.1esr-SSL&os=linux64&lang=en-US
 echo "Download complete."
 # Decompressing archive.
-tar -xzvf thunderbird.tar.bz2
+tar -xJvf thunderbird.tar.bz2
 rm thunderbird.tar.bz2
 # Create a symlink to the Firefox executable: 
 ln -s sudo ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird
